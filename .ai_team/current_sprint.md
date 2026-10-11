@@ -14,5 +14,5 @@
 
 ## 🔎 Task 3: Ingestion Linter & Validation Verification
 - **Assignee:** Editor Assistant
-- **Status:** [ ] INCOMPLETE
-- **Specs:** Build unit tests checking string validation over text files, catching visual symbol formatting bugs (`[MELEE]`, `SP`).
+- **Status:** [x] COMPLETE
+- **Specs:** Build unit tests checking string validation over text files, catching visual symbol formatting bugs (`[MELEE]`, `SP`). Python validator implemented in `src/ingestion_linter.py`, tests added in `tests/test_ingestion_linter.py`, and GitHub Actions CI configured in `.github/workflows/python-linter-ci.yml`.
