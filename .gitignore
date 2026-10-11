@@ -1,0 +1,9 @@
+*.pdf
+*.zip
+*.rar
+raw_sheets/
+temp_page_images/
+__pycache__/
+*.pyc
+.vscode/
+node_modules/

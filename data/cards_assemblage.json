@@ -1,0 +1,621 @@
+{
+ "sheet": "assemblage",
+ "image": "Middara_Deck_DiscipAssemblage.jpg",
+ "grid": [
+  10,
+  3
+ ],
+ "kind": "discipline",
+ "cards": [
+  {
+   "idx": 0,
+   "name": "Banished Knowledge",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [
+    "EXHAUST"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [
+    "Haste"
+   ],
+   "text": "EXHAUST\nAn ally within SOI Gains Haste.\nReduce the SP cost of this Discipline by 1 if the target is an ally other than yourself.\n'There is safety in not knowing.'",
+   "review": []
+  },
+  {
+   "idx": 1,
+   "name": "Last Laugh",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [
+    "EXHAUST"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "ESPER",
+    "IRREDUCIBLE"
+   ],
+   "effects": [],
+   "text": "If you or a LOYAL ESPER is Defeated, the figure that dealt the Damage is dealt their 2 Conviction Dice worth of MAGIC DMG.\n\nEXHAUST\nWhen you or a LOYAL ESPER is dealt Damage by an opponent, you may deal the source of that Damage 2 IRREDUCIBLE DMG.",
+   "review": []
+  },
+  {
+   "idx": 2,
+   "name": "Familiar",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [
+    "PASSIVE"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [],
+   "text": "PASSIVE\nAfter learning this Discipline, choose a FAMILIAR and place it face up next to your Adventurer card.\nYour FAMILIAR cannot be changed.",
+   "review": []
+  },
+  {
+   "idx": 3,
+   "name": "Forebode",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "DODGE"
+   ],
+   "effects": [],
+   "text": "At any time, re-roll a roll you made or that was made against you. Limited by your highest LVL ASSEMBLAGE Discipline.\nLVL 1+: Dodge rolls or Skill Check rolls\nLVL 2+: Spell Casting rolls\nLVL 3+: Conviction rolls or Attack rolls\nLVL 4+: Any rolls",
+   "review": []
+  },
+  {
+   "idx": 4,
+   "name": "Perfect Love",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [
+    "EXHAUST"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "ESPER"
+   ],
+   "effects": [],
+   "text": "EXHAUST\nBefore an ally within SOI would Determine Damage from an Attack made against them, or Resolve the Spell's Effect from a Spell made against them, REDIRECT to yourself or a LOYAL ESPER.\n\"There is no fear in love.\"",
+   "review": []
+  },
+  {
+   "idx": 5,
+   "name": "Euthanasia",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [
+    "Condemn",
+    "Wilt"
+   ],
+   "text": "Cast a SPELL 6. Inflict Wilt and deal 4 MAGIC DMG. Then, if the target was already Inflicted with Wilt, Inflict Condemn. If they were already Inflicted with both Condemn and Wilt, roll the BLACK ☠️. If ☠️ is rolled, the target is Defeated.",
+   "review": []
+  },
+  {
+   "idx": 6,
+   "name": "Sanctuary",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "DODGE"
+   ],
+   "effects": [],
+   "text": "At any time, an ally within SOI may DODGE.\n\"Here there is safety.\"",
+   "review": []
+  },
+  {
+   "idx": 7,
+   "name": "Banished Knowledge",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [
+    "EXHAUST"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [
+    "Haste"
+   ],
+   "text": "EXHAUST\nAn ally within SOI Gains Haste.\nReduce the SP cost of this Discipline by 1 if the target is an ally other than yourself.\n'There is safety in not knowing.'",
+   "review": []
+  },
+  {
+   "idx": 8,
+   "name": "Last Laugh",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [
+    "EXHAUST"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "ESPER",
+    "IRREDUCIBLE"
+   ],
+   "effects": [],
+   "text": "If you or a LOYAL ESPER is Defeated, the figure that dealt the Damage is dealt their 2 Conviction Dice worth of MAGIC DMG.\n\nEXHAUST\nWhen you or a LOYAL ESPER is dealt Damage by an opponent, you may deal the source of that Damage 2 IRREDUCIBLE DMG.",
+   "review": []
+  },
+  {
+   "idx": 9,
+   "name": "Familiar",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [
+    "PASSIVE"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [],
+   "text": "PASSIVE\nAfter learning this Discipline, choose a FAMILIAR and place it face up next to your Adventurer card.\nYour FAMILIAR cannot be changed.",
+   "review": []
+  },
+  {
+   "idx": 10,
+   "name": "Forebode",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "DODGE"
+   ],
+   "effects": [],
+   "text": "At any time, re-roll a roll you made or that was made against you. Limited by your highest LVL ASSEMBLAGE Discipline. LVL 1+: Dodge rolls or Skill Check rolls LVL 2+: Spell Casting rolls LVL 3+: Conviction rolls or Attack rolls LVL 4+: Any rolls",
+   "review": []
+  },
+  {
+   "idx": 11,
+   "name": "Perfect Love",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [
+    "EXHAUST"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "ESPER"
+   ],
+   "effects": [],
+   "text": "EXHAUST\nBefore an ally within SOI would Determine Damage from an Attack made against them, or Resolve the Spell's Effect from a Spell made against them, REDIRECT to yourself or a LOYAL ESPER.\n\"There is no fear in love.\"",
+   "review": []
+  },
+  {
+   "idx": 12,
+   "name": "Euthanasia",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [
+    "Condemn",
+    "Wilt"
+   ],
+   "text": "Cast a SPELL 6. Inflict Wilt and deal 4 MAGIC DMG. Then, if the target was already Inflicted with Wilt, Inflict Condemn. If they were already Inflicted with both Condemn and Wilt, roll the BLACK ☠️. If ☠️ is rolled, the target is Defeated.",
+   "review": []
+  },
+  {
+   "idx": 13,
+   "name": "Sanctuary",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 1,
+   "xp": "3+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "DODGE"
+   ],
+   "effects": [],
+   "text": "At any time, an ally within SOI may DODGE.\n\n\"Here there is safety.\"",
+   "review": []
+  },
+  {
+   "idx": 14,
+   "name": "Bff",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 2,
+   "xp": "5+",
+   "timing": [
+    "FU"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "ESPER"
+   ],
+   "effects": [],
+   "text": "At any time, when making an Attack, you or a LOYAL ESPER you've Summoned Gains the following:\nFU: Move 3 spaces without provoking Break Attacks, then make a ATK against a different target.",
+   "review": []
+  },
+  {
+   "idx": 15,
+   "name": "Imposed Paradigm",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 2,
+   "xp": "5+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "SWAP"
+   ],
+   "effects": [],
+   "text": "Cast a SPELL 6. SWAP places with the target. \"A lie told often enough becomes the truth.\"",
+   "review": []
+  },
+  {
+   "idx": 16,
+   "name": "Possession",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 2,
+   "xp": "5+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "ESPER"
+   ],
+   "effects": [],
+   "text": "A LOYAL ESPER within SOI makes a ✕ ATK or you may spend 1 SP and another ally within SOI makes a ✕ ATK instead.\n\n\"Let us end this debate! There is such thing as free will, and I shall take yours as my own.\"",
+   "review": []
+  },
+  {
+   "idx": 17,
+   "name": "Ruination",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 2,
+   "xp": "5+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [],
+   "text": "Cast a SPELL 6 against up to 2 different opponents within SOI. Reduce the SP cost of this Discipline by 1 if all targets have an Effect. Roll your Casting die, deal MAGIC DMG equal to the result. \"Ruin attends the wicked.\"",
+   "review": []
+  },
+  {
+   "idx": 18,
+   "name": "Fortune Telling",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 2,
+   "xp": "5+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [],
+   "text": "After a figure within your SOI has rolled for any reason, choose the result of any single die except the BLACK. \"Fortune, good night; smile once more, turn thy wheel.\"",
+   "review": []
+  },
+  {
+   "idx": 19,
+   "name": "Summoning",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 2,
+   "xp": "5+",
+   "timing": [
+    "PASSIVE",
+    "DISCARD"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "ESPER",
+    "IRREDUCIBLE"
+   ],
+   "effects": [],
+   "text": "Summon a LOYAL ESPER within your SOI. Then, Gain 1 Summon token.\n\nPASSIVE\nAt anytime, X DISCARD a Summon token to reduce any non-irreducible Damage being dealt to a LOYAL ESPER you control by 2.",
+   "review": []
+  },
+  {
+   "idx": 20,
+   "name": "Conduit Summoning",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 2,
+   "xp": "5+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [],
+   "text": "Any time an opponent is Defeated within SOI, Earn their CONDUIT card.\n1 SP: At any time, replace your Adventurer card with a CONDUIT that you have Earned. Or, replace your current CONDUIT with your Adventurer card.",
+   "review": []
+  },
+  {
+   "idx": 21,
+   "name": "Exalted Summoning",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 3,
+   "xp": "7+",
+   "timing": [
+    "PER ENCOUNTER"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "ESPER"
+   ],
+   "effects": [],
+   "text": "1 PER ENCOUNTER Choose an EXALTED ESPER and use its Ability within SOI.",
+   "review": []
+  },
+  {
+   "idx": 22,
+   "name": "The Pessimist",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 3,
+   "xp": "7+",
+   "timing": [],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [
+    "Condemn"
+   ],
+   "text": "When an opponent within SOI fails a Conviction Check by 3 or more, Inflict Condemn.\n\"With the choice of two evils, I'll take both.\"",
+   "review": []
+  },
+  {
+   "idx": 23,
+   "name": "Helping Hands",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 3,
+   "xp": "7+",
+   "timing": [
+    "PASSIVE",
+    "EXHAUST"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "FLIGHT"
+   ],
+   "effects": [],
+   "text": "PASSIVE\nYou may equip an additional Consumable and Relic.\nEXHAUST\nMove up to 2 spaces. Gain FLIGHT during this movement.",
+   "review": []
+  },
+  {
+   "idx": 24,
+   "name": "Resonance",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 3,
+   "xp": "7+",
+   "timing": [
+    "FU"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [],
+   "text": "FU: Use an un-flipped Discipline you have learned that costs 1-3 SP. Any Conditions excluding SP cost still apply. This Discipline may target a different figure.",
+   "review": []
+  },
+  {
+   "idx": 25,
+   "name": "Friends With Benefits",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 3,
+   "xp": "7+",
+   "timing": [
+    "PASSIVE"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [],
+   "text": "PASSIVE\nWhen you use the Discipline Summoning, Gain 1 additional Summon token.\nLOYAL ESPERS you Summon\nGain +1 🛡️.",
+   "review": []
+  },
+  {
+   "idx": 26,
+   "name": "Felled Afterlife",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 4,
+   "xp": "9+",
+   "timing": [
+    "DISCARD",
+    "PER ENCOUNTER"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "FORCE"
+   ],
+   "effects": [],
+   "text": "When an opponent within your SOI is Defeated, this card Gains 1 Energy token. (Limit 2). When determining the Force of a Spell, if you have 2 Energy tokens on this card, Gain +1 to the Force.\n1 PER ENCOUNTER\nDiscard 2 Energy tokens from this card to Gain 2 Enslaved Spirits.",
+   "review": []
+  },
+  {
+   "idx": 27,
+   "name": "The Tower Reversed",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 4,
+   "xp": "9+",
+   "timing": [
+    "EXHAUST"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [],
+   "effects": [
+    "Darkness",
+    "Disease",
+    "Paralyze"
+   ],
+   "text": "EXHAUST Cast a SPELL 6. Deal 3 MAGIC DMG for each Effect the target has. Then, Inflict Darkness, Disease, and Paralyze.",
+   "review": []
+  },
+  {
+   "idx": 28,
+   "name": "Soul Bond",
+   "kind": "discipline",
+   "class": "ASSEMBLAGE",
+   "level": 4,
+   "xp": "9+",
+   "timing": [
+    "PASSIVE"
+   ],
+   "combo": [],
+   "finesse": [],
+   "throw": [],
+   "upgrade": {},
+   "reach": null,
+   "keywords": [
+    "ESPER"
+   ],
+   "effects": [],
+   "text": "PASSIVE\n• When you use the Discipline Summoning, Gain 1 additional Summon token.\n• Whenever a LOYAL ESPER you Summoned spends SP to make any Action or Ability, they may spend SP that you have available instead of their own. If either you or your LOYAL ESPERS Gain or lose a Positive Effect, you each also Gain or lose that Effect.",
+   "review": []
+  }
+ ]
+}
