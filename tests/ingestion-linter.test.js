@@ -24,7 +24,7 @@ test("flags lowercase and incomplete combat-token brackets", () => {
 });
 
 test("flags a likely misspelling of a bracketed combat token", () => {
-  const result = validateGameText("Resolve [MEELE].");
+  const result = validateGameText("Resolve [MELE].");
   assert.equal(result.valid, false);
   assert.ok(result.errors.some((error) => error.code === "POSSIBLE_COMBAT_TOKEN_TYPO"));
 });
