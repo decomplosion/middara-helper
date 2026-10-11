@@ -1,0 +1,47 @@
+/* --- 🎨 UI/UX DESIGNER DOMAIN: COMPACT CARD COMPONENT TOKENS --- */
+
+/* 1. Component Tile Base */
+.card-tile-compact {
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    cursor: pointer;
+}
+.card-tile-compact:hover {
+    border-color: var(--accent-gold);
+}
+
+/* 2. High-Contrast Core Metadata Badges */
+.badge-base {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    border-radius: 2px;
+    letter-spacing: 0.05em;
+}
+.badge-class-assemblage { background-color: #2b1d42; color: #bca8e6; border: 1px solid #5a3d8c; }
+.badge-class-cruor      { background-color: #421d1d; color: #e6a8a8; border: 1px solid #8c3d3d; }
+.badge-class-martial    { background-color: #1d3342; color: #a8cfe6; border: 1px solid #3d708c; }
+.badge-class-subterfuge { background-color: #1d4224; color: #a8e6b2; border: 1px solid #3d8c4b; }
+
+/* 3. Punchy Inline Keyword Chips */
+.keyword-chip-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+    grid-column: 1 / span 2;
+}
+.keyword-chip {
+    font-size: 0.7rem;
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 1px 5px;
+    text-transform: uppercase;
+}

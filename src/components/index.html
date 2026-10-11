@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middara Helper — Cards, Rules & Game-State Dashboard</title>
+    <style>
+        /* --- 🎨 UI/UX DESIGNER DOMAIN: DARK-FANTASY STYLE TOKENS --- */
+        :root {
+            --bg-primary: #0d0d0c;
+            --bg-secondary: #1a1917;
+            --bg-tertiary: #262421;
+            --text-primary: #e6e1da;
+            --text-secondary: #a69e92;
+            --accent-gold: #c29d53;
+            --accent-red: #8c251e;
+            --border-color: #383530;
+            --panel-width-left: 50%;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* --- 📐 ARCHITECT FRAMEWORK: SIDE-BY-SIDE DESKTOP SPLIT --- */
+        .app-container {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+        }
+
+        .panel {
+            height: 100%;
+            overflow-y: auto;
+            background-color: var(--bg-secondary);
+            display: flex;
+            flex-direction: column;
+        }
+
+        #panel-left {
+            width: var(--panel-width-left);
+            border-right: 1px solid var(--border-color);
+        }
+
+        #panel-right {
+            flex-grow: 1;
+            width: calc(100vw - var(--panel-width-left));
+        }
+
+        /* Interactive Resizer Bar for Mouse Dragging */
+        .resizer {
+            width: 8px;
+            background-color: var(--bg-primary);
+            border-left: 1px solid var(--border-color);
+            border-right: 1px solid var(--border-color);
+            cursor: col-resize;
+            z-index: 10;
+            transition: background-color 0.2s;
+        }
+
+        .resizer:hover, .resizer.active {
+            background-color: var(--accent-gold);
+        }
+
+        /* Header Structural Layouts */
+        .panel-header {
+            background-color: var(--bg-tertiary);
+            padding: 16px;
+            border-bottom: 2px solid var(--accent-gold);
+            font-size: 1.1rem;
+            font-weight: bold;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .panel-content {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        /* --- 📱 RESPONSIVE MOBILE TAB SWITCHER BLOCK --- */
+        .mobile-tabs {
+            display: none;
+            background-color: var(--bg-tertiary);
+            border-bottom: 2px solid var(--border-color);
+            width: 100%;
+        }
+
+        .tab-button {
+            flex: 1;
+            padding: 14px;
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+
+        .tab-button.active {
+            color: var(--accent-gold);
+            border-bottom: 3px solid var(--accent-gold);
+            background-color: var(--bg-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .mobile-tabs {
+                display: flex;
+            }
+            .app-container {
+                flex-direction: column;
+            }
+            .resizer {
+                display: none;
+            }
+            .panel {
+                width: 100% !important;
+                height: calc(100vh - 47px) !important;
+                display: none;
+            }
+            .panel.mobile-active {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Mobile Navigation Layer -->
+    <div class="mobile-tabs">
+        <button class="tab-button active" onclick="switchMobileTab('left')">Dashboard & Cards</button>
+        <button class="tab-button" onclick="switchMobileTab('right')">Rules Reference</button>
+    </div>
+
+    <!-- Main Workspace Container -->
+    <div class="app-container" id="workspace">
+        
+        <!-- Left Side: Cards Browser & Game-State Tracker -->
+        <div class="panel mobile-active" id="panel-left">
+            <div class="panel-header">🛡️ Tracker & Cards Workspace</div>
+            <div class="panel-content">
+                <!-- Sandbox layout anchor placeholder -->
+                <p style="color: var(--text-secondary);">Left Side Column: Cards Panel & Encounter State Engine sit here next to Tabletop Simulator.</p>
+            </div>
+        </div>
+
+        <!-- Dynamic Dragging Border Grid Bar -->
+        <div class="resizer" id="drag-bar"></div>
+
+        <!-- Right Side: Rulebook Context Window -->
+        <div class="panel" id="panel-right">
+            <div class="panel-header">📜 Rulebook Reference Engine</div>
+            <div class="panel-content">
+                <p style="color: var(--text-secondary);">Right Side Column: Chapter layout indexing and deep cross-referencing verbatim rules mapping engine.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- --- 💻 CODE GENERATOR DOMAIN: WORKSPACE CORE LOGIC --- -->
+    <script>
+        const resizer = document.getElementById('drag-bar');
+        const leftPanel = document.getElementById('panel-left');
+        const workspace = document.getElementById('workspace');
+        let isDragging = false;
+
+        // Desktop Interactive Mouse Resizing Loop Logic
+        resizer.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            resizer.classList.add('active');
+            document.body.style.cursor = 'col-resize';
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            
+            // Calculate pixel percentage width boundaries dynamically
+            let percentage = (e.clientX / window.innerWidth) * 100;
+            
+            // Constrain scaling parameters to protect layouts from collapsing to zero
+            if (percentage > 20 && percentage < 80) {
+                document.documentElement.style.setProperty('--panel-width-left', `${percentage}%`);
+                leftPanel.style.width = `${percentage}%`;
+            }
+        });
+
+        document.addEventListener('mouseup', () => {
+            if (isDragging) {
+                isDragging = false;
+                resizer.classList.remove('active');
+                document.body.style.cursor = 'default';
+            }
+        });
+
+        // Mobile View Responsive Tab Handler Logic
+        function switchMobileTab(target) {
+            const buttons = document.querySelectorAll('.tab-button');
+            const left = document.getElementById('panel-left');
+            const right = document.getElementById('panel-right');
+
+            buttons.forEach(btn => btn.classList.remove('active'));
+            
+            if (target === 'left') {
+                buttons[0].classList.add('active');
+                left.classList.add('mobile-active');
+                right.classList.remove('mobile-active');
+            } else {
+                buttons[1].classList.add('active');
+                right.classList.add('mobile-active');
+                left.classList.remove('mobile-active');
+            }
+        }
+    </script>
+</body>
+</html>
